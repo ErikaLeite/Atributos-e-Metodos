@@ -5,14 +5,23 @@ namespace Atributos_e_Metodos
         public string nome;
         public int idade;
         public string armadura;
+        public string arma;
 
         public string Ataque(){
 
-            return "Ataque com espada!"; 
+            return "Desce, sobe, empina e rebola"; 
         }
 
         public string Defender(){
-            return "Modo defesa ativado! ";
+            return "'Vem traquilo'";
+        }
+
+        public string Derrota(){
+            return "'Já acabou, Jéssica?'";
+        }
+
+        public string Vitoria(){
+            return "'Apenas meu silêncio para você'";
         }
     }
 }
